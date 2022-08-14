@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator detection</title>
+    <link href="calc.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>Calculator detection</h1>
+    <hr>
+    <div class="allBlock">
+        <div class="block1">
+            <h2>Researched vehicles</h2>
+            <form>
+                <p>Overview of researched vehicles: <input id="tank3aX" name="" type="number"></p>
+                <p> Technique Disguise: <input id="tank3aY" name="" type="number"></P>
+            </form>
+            <div class="imgTank">
+                <img src = "image_tank/tank3a.png">
+            </div>
+                <p> Enemy vehicle detection range: <span id="tank3aResult1"></span></p>
+        </div>
+        <div class="button">
+            <button id="butt", onclick = calcDetect()>Result</button>
+        </div>
+        <div class="block2">
+            <h2>Enemy vehicles</h2>
+            <form>
+                <p> Overview of enemy vehicles: <input id="tank4bX2" name="" type="number"></p>
+                <p> Enemy vehicle camouflage: <input id="tank4bY2" name="" type="number"></p>
+            </form>
+            <div class="imgTank">
+                <img src = "image_tank/tank4b.png">
+            </div>
+                <p> Detection range of researched equipment: <span id="tank4bResult2"></span></p>
+        </div>
+    </div>
+
+
+
+
+    <script src="calc.js"></script>
+</body>
+</html>

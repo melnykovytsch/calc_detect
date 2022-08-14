@@ -1,0 +1,32 @@
+
+
+
+h1 {
+    text-align: center;
+}
+
+img {
+    margin-left: 25%;
+}
+
+.allBlock {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.button {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(248, 218, 46);
+}
